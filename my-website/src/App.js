@@ -1,19 +1,14 @@
-import React from 'react';
+import React, { Component } from 'react';
+import Membro from './components/Membro';
 
-const BemVindo = (props) => {
-  return (
-    <div> 
-      <h2>Bem Vindo(a) {props.nome} </h2>
-    </div>);
-};
-
-function App() {
-  return(
-    <div>
-      Olá mundo
-      <BemVindo nome="Matheus"/> 
-      <BemVindo nome="Gabriel"/> 
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <Membro nome="Visitante"/>
+      </div>
+    )
+  }
 }
+
 export default App;
