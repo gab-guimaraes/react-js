@@ -4,3 +4,5 @@ util commands:
 > create-react-app my-website
 > npm start
 
+create routes:
+> npm install react-router-dom
