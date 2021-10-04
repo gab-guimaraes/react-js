@@ -27,8 +27,9 @@ class App extends Component {
       <div className="container">
         {this.state.nutri.map((item)=> {
           return(
-            <article>
+            <article key={item.id}>
               <strong> {item.title} </strong>
+              <p> {item.body} </p>
               </article>
           );
         })}
