@@ -6,3 +6,6 @@ util commands:
 
 create routes:
 > npm install react-router-dom
+
+install bootstrap 
+npm i bootstrap reactstrap --save

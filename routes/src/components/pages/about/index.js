@@ -4,7 +4,7 @@ class About extends Component {
   render() {
     return (
       <div><h1>about</h1>
-      <Link to='/'>back  to home</Link>
+      <Link to='/'>home</Link>
       </div>
       
     )
